@@ -1,0 +1,132 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  max-width: 1000px;
+  background-color: #9be9db;
+  margin:0 auto;
+}
+.image{
+  height: 120px; ;
+  width:100px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  float: left;
+}
+.bio{
+  float: left;
+  padding: 30px;
+}
+h1, h2,h3,h4,h5,h6{
+  color: #11999e;
+
+
+}
+.contact {
+  float: right;
+  padding: 30px;
+}
+.contact a{
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+.contact a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+.clear{
+  clear:both;
+}
+hr{
+  border: solid black 3px;
+  margin: 10;
+}
+h3{
+  font-size: 20px;
+  background-color:#9be9db;
+  float: left;
+  height: 60px;
+  width: 400px;
+  padding-top: 50px;
+  padding-left: 50px;
+
+}
+.adress{
+  height: 70px ;
+  box-sizing: border-box;
+  width: 550px;
+  font-weight: bolder;
+  color:hwb(182 6% 38%);
+  float: left;
+  background-color: #9be9db;
+  padding: 10px;
+} 
+h4,h5{
+  height: 120px;
+  width: 400px;
+  padding-left: 50px;
+  padding-top: 50px;
+  float: left;
+  background-color: #9be9db;
+  font-size: 20px;
+}
+.education{
+  float: left;
+  background-color: #9be9db;
+  width: 550px;
+  height: 170px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #11999e;
+}
+.experience{
+  color: #11999e;
+  width: 550px;
+  float: left;
+  box-sizing: border-box;
+  background-color: #9be9db;
+  height: 170px;
+  padding: 10px;
+}
+h5{
+  float: left;
+  background-color: #9be9db;
+  width: 450px;
+  height: 170px;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  color: #11999e;
+
+}
+.information{
+  box-sizing: border-box;
+  padding-top: 10px;
+ color: #11999e;
+  width: 550px;
+  float: right;
+  box-sizing: border-box;
+  background-color: #9be9db;
+  height: 170px;
+  padding: 10px;
+}
+#end{
+  clear: both;
+  background-color: black;
+  height: 50px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+#end a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
